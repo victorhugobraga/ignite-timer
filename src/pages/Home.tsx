@@ -1,3 +1,7 @@
 export function Home() {
-  return <h1>Home Timer</h1>
+  return (
+    <div>
+      <h1>Home Timer</h1>
+    </div>
+  )
 }
