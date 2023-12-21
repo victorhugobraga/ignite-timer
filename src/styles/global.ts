@@ -15,6 +15,7 @@ export const GlobalSytle = createGlobalStyle`
     body {
         background-color: ${(props) => props.theme['gray-900']};
         color: ${(props) => props.theme['gray-300']};
+        -webkit-font-smoothink: antialiased;
     }
 
     body, input-security, textarea, button {
